@@ -1,0 +1,93 @@
+/* CSS Variables & Theme Tokens */
+:root {
+  /* Fonts */
+  --font-primary: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Global variables used in transition styles */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --backdrop-blur: 12px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --max-width: 1200px;
+}
+
+/* Default Theme: Premium Dark Theme */
+:root, :root[data-theme="dark"] {
+  --bg-gradient-start: #0a0e17;
+  --bg-gradient-end: #121824;
+  --bg-surface: rgba(30, 41, 59, 0.45);
+  --bg-surface-hover: rgba(30, 41, 59, 0.65);
+  
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-hover: rgba(99, 102, 241, 0.3);
+  --bg-nav: rgba(10, 14, 23, 0.75);
+
+  --color-primary: #6366f1; /* Indigo */
+  --color-primary-hover: #4f46e5;
+  --color-secondary: #a855f7; /* Purple */
+  --color-accent: #10b981; /* Emerald */
+  --color-accent-hover: #059669;
+  --color-danger: #ef4444; /* Rose */
+  --color-danger-hover: #dc2626;
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-inverse: #0f172a;
+
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --glow-shadow: 0 0 20px rgba(99, 102, 241, 0.25);
+  --glow-shadow-success: 0 0 20px rgba(16, 185, 129, 0.25);
+
+  /* Theme-adaptive components backgrounds */
+  --bg-controls: rgba(30, 41, 59, 0.25);
+  --bg-input: rgba(15, 23, 42, 0.6);
+  --bg-chip: rgba(30, 41, 59, 0.5);
+  --bg-image-placeholder: #1e293b;
+  --text-placeholder: #94a3b8;
+  --bg-dropdown: #1e293b;
+  --bg-dropdown-item-hover: rgba(255, 255, 255, 0.05);
+  --bg-row-hover: rgba(255, 255, 255, 0.05);
+}
+
+/* Light Theme Override */
+:root[data-theme="light"] {
+  --bg-gradient-start: #f8fafc;
+  --bg-gradient-end: #e2e8f0;
+  --bg-surface: rgba(255, 255, 255, 0.85); /* Premium lighter surface elevation */
+  --bg-surface-hover: #ffffff;
+  
+  --border-color: rgba(15, 23, 42, 0.08);
+  --border-color-hover: rgba(79, 70, 229, 0.4);
+  --bg-nav: rgba(248, 250, 252, 0.85);
+
+  --color-primary: #4f46e5; /* Deeper Indigo */
+  --color-primary-hover: #3730a3;
+  --color-secondary: #9333ea; /* Purple */
+  --color-accent: #059669; /* Emerald */
+  --color-accent-hover: #047857;
+  --color-danger: #e11d48; /* Rose */
+  --color-danger-hover: #be123c;
+  
+  --text-primary: #0f172a; /* Slate 900 */
+  --text-secondary: #334155; /* Slate 700 */
+  --text-muted: #57606f; /* Slate 600 */
+  --text-inverse: #f8fafc;
+
+  --card-shadow: 0 8px 30px 0 rgba(148, 163, 184, 0.12);
+  --glow-shadow: 0 0 20px rgba(79, 70, 229, 0.08);
+  --glow-shadow-success: 0 0 20px rgba(5, 150, 105, 0.08);
+
+  /* Light Theme Specific Components overrides */
+  --bg-controls: rgba(255, 255, 255, 0.7);
+  --bg-input: #ffffff;
+  --bg-chip: rgba(255, 255, 255, 0.85);
+  --bg-image-placeholder: #f1f5f9;
+  --text-placeholder: #64748b;
+  --bg-dropdown: #ffffff;
+  --bg-dropdown-item-hover: rgba(15, 23, 42, 0.04);
+  --bg-row-hover: rgba(15, 23, 42, 0.03);
+}

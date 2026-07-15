@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "AeroSound Max Wireless Headphones",
+    "price": 149.99,
+    "description": "Experience pure audio bliss with active noise cancellation, 40-hour battery life, and ultra-comfortable memory foam earcups.",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.8,
+      "count": 128
+    }
+  },
+  {
+    "id": 2,
+    "title": "KeySync Tactile Mechanical Keyboard",
+    "price": 89.99,
+    "description": "Premium tactile switches, customizable RGB backlighting, and a solid aluminum top plate make this keyboard a typing masterpiece.",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.6,
+      "count": 94
+    }
+  },
+  {
+    "id": 3,
+    "title": "Chronos Classic Minimalist Watch",
+    "price": 199.00,
+    "description": "An elegant timepiece featuring Japanese quartz movement, genuine leather strap, and a scratch-resistant sapphire crystal glass.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.7,
+      "count": 65
+    }
+  },
+  {
+    "id": 4,
+    "title": "Nomad Heritage Leather Backpack",
+    "price": 125.50,
+    "description": "Handcrafted from full-grain leather, this rugged backpack features a padded laptop sleeve and multiple compartments for modern explorers.",
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.5,
+      "count": 142
+    }
+  },
+  {
+    "id": 5,
+    "title": "HydraGlow Smart Water Bottle",
+    "price": 39.99,
+    "description": "Insulated stainless steel bottle that tracks your water intake and glows to remind you to hydrate, syncs with health apps.",
+    "category": "Fitness",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.2,
+      "count": 210
+    }
+  },
+  {
+    "id": 6,
+    "title": "ErgoFlex Active Office Chair",
+    "price": 289.00,
+    "description": "Ergonomic mesh office chair with adjustable lumbar support, 3D armrests, and dynamic reclining for all-day comfort.",
+    "category": "Furniture",
+    "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.4,
+      "count": 58
+    }
+  },
+  {
+    "id": 7,
+    "title": "MagCharge 3-in-1 Wireless Dock",
+    "price": 59.99,
+    "description": "Fast charge your phone, smartwatch, and earbuds simultaneously with a sleek, minimalist magnetic charger.",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.3,
+      "count": 82
+    }
+  },
+  {
+    "id": 8,
+    "title": "SoundWave Portable Speaker",
+    "price": 79.99,
+    "description": "IPX7 waterproof speaker with rich bass, 360-degree sound, and up to 24 hours of playtime, ideal for outdoor adventures.",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.7,
+      "count": 115
+    }
+  },
+  {
+    "id": 9,
+    "title": "Apex Modular Desk Organizer",
+    "price": 34.99,
+    "description": "Keep your desk clutter-free with this premium walnut wood and matte black aluminum magnetic modular organizer set.",
+    "category": "Office",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.1,
+      "count": 47
+    }
+  },
+  {
+    "id": 10,
+    "title": "BaristaPro Cold Drip Coffee Maker",
+    "price": 49.99,
+    "description": "Craft smooth, low-acid cold brew at home with this borosilicate glass tower and adjustable precision drip valve.",
+    "category": "Kitchen",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80",
+    "rating": {
+      "rate": 4.9,
+      "count": 73
+    }
+  }
+]
